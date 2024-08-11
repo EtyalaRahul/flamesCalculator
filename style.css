@@ -76,18 +76,21 @@ input[type="text"] {
 .bg #exictedgif {
     justify-content: flex-start;
 }
-.innercontainer h1{
+
+.innercontainer h1 {
     text-align: center;
 }
-.btns{
+
+.btns {
     margin-top: 63px;
     gap: 23px;
 }
-.btn{
+
+.btn {
     width: 123px;
     height: 53px;
     border: none;
-    background-color:red;
+    background-color: #d1001f;
     color: white;
     cursor: pointer;
     border-radius: 23px;
