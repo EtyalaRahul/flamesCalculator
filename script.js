@@ -4,6 +4,7 @@ console.log("Welcome to the script page, bro");
 let partner1 = document.getElementById("patner1");
 let partner2 = document.getElementById("patner2");
 let submit = document.getElementById("submit");
+let reset = document.getElementById("reset");
 let displayResult = document.getElementById("changename");
 
 submit.addEventListener('click', () => {
@@ -64,3 +65,9 @@ function flamesResult(uncommonLetters) {
 
     return flamesMeaning[flames[0]];
 }
+reset.addEventListener('click',()=>{
+    
+    partner1.value="";
+    partner2.value="";
+    displayResult.style.display="none";
+})
