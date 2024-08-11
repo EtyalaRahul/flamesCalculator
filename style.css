@@ -65,6 +65,7 @@ input[type="text"] {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 #exictedgif {
@@ -95,4 +96,7 @@ input[type="text"] {
     cursor: pointer;
     border-radius: 23px;
     font-size: 1.2rem;
+}
+#changename{
+    display: none;
 }
